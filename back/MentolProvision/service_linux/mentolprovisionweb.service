@@ -1,0 +1,15 @@
+[Unit]
+Description=MentolProvisionWeb
+After=network.target multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/mentol/MentolProvisionWeb
+ExecStartPre=cd /opt/mentol/MentolProvisionWeb
+ExecStart=/usr/bin/dotnet /opt/mentol/MentolProvisionWeb/MentolProvision.dll
+Restart=always
+RestartSec=10  # Restart service after 10 seconds if dotnet service crashes
+SyslogIdentifier=mentolprovisionweb
+
+[Install]
+WantedBy=multi-user.target

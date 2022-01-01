@@ -1,0 +1,56 @@
+
+// Globals
+$body-font-family: "Montserrat", sans-serif;
+$border-radius-root: 3px;
+$font-size-root: 14px;
+
+// Inputs
+$input-font-size: 12px;
+$text-field-border-radius: 3px;
+// Dialogs
+$dialog-max-height: 100%;
+
+// Menus
+$menu-content-elevation: 1;
+
+// Variables must come before the import
+$btn-letter-spacing: 0;
+$btn-font-weight: 400;
+$list-item-title-font-size: 0.929rem;
+$list-item-dense-title-font-size: 0.929rem;
+$list-item-dense-title-font-weight: initial;
+$fab-icon-sizes: (
+  'small': 20
+);
+$btn-sizes: (
+  'default': 31,
+  'large': 44
+);
+
+$headings: (
+  'h1': (
+    'size': 0.7rem,
+    'line-height': 1.15em
+  ),
+  'h2': (
+    'size': 2.25rem,
+    'line-height': 1.5em
+  )
+);
+// h1{
+//     font-size: 4000px !important;
+// }
+
+// Table
+$data-table-regular-row-font-size: $font-size-root;
+$data-table-regular-header-font-size: $font-size-root + 2;
+$data-table-dense-header-height: 28px;
+
+// List
+$list-item-content-padding: 0;
+$list-item-padding: 0;
+$list-item-min-height: 10px;
+$list-nav-padding-left: 0;
+$list-nav-padding-right: 0;
+
+

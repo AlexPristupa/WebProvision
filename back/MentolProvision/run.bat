@@ -1,0 +1,2 @@
+dotnet MentolProvision.dll
+pause
